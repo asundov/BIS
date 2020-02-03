@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bis">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/HiddenTitleTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <activity android:name=".Prijava"
+            android:label="Prijava"></activity>
+        <activity android:name=".StartIzbornik"
+            android:label="Start"></activity>
+        <activity android:name=".MojiNalazi"
+            android:label="Moji nalazi"></activity>
+        <activity android:name=".OpcenitooMikrobiologiji"
+            android:label="Opcenito o mikrobiologiji"></activity>
+        <activity android:name=".NarucivanjePretraga"
+            android:label="Narucivanje pacijenata"></activity>
+        <activity android:name=".Kontakt"
+            android:label="Kontakt"></activity>
+        <activity android:name=".PunjenjeBazeAdmin"
+            android:label="Punjenje baze"></activity>
+    </application>
+
+</manifest>

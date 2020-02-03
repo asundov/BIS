@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical">
+    // android:descendantFocusability="blocksDescendants" dodano jer inace nije radia toast na
+    listview https://stackoverflow.com/questions/5551042/onitemclicklistener-not-working-in-listview
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:elevation="2dp"
+            android:src="@drawable/kontakt" />
+
+        <Button
+            android:id="@+id/button_listview"
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/expand"
+            android:fontFamily="@font/arimo_italic"
+            android:textSize="30dp"
+            />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginBottom="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_listview"
+            android:fontFamily="@font/arimo_italic"
+            android:gravity="center_vertical"
+            android:text="TextView"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="3dp">
+
+        <Button
+            android:id="@+id/naruci"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="233dp"
+            android:background="@drawable/buttons_edges_only"
+            android:text="Naruči"
+           />
+
+        <Button
+            android:id="@+id/print"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="131dp"
+            android:background="@drawable/buttons_edges_only"
+            android:text="Printaj"
+           />
+
+        <Button
+            android:id="@+id/contact"
+            android:layout_width="116dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/buttons_edges_only"
+            android:text="Kontaktiraj"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/starter"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="740dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="290dp"
+                android:background="@drawable/hiii"
+                android:src="@drawable/startscreen" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="230dp"
+                android:gravity="center_vertical"
+                android:shadowColor="#FFFFFF"
+                android:shadowDx="10"
+                android:shadowDy="10"
+                android:shadowRadius="10"
+                android:text="Dobro došli!"
+                android:textAlignment="center"
+                android:textColor="#113f67"
+                android:textSize="70dp"
+                app:fontFamily="@font/dancing_script_bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="40dp"
+                android:layout_marginTop="350dp"
+                android:orientation="vertical"
+                 >
+
+                <EditText
+                    android:id="@+id/unesiOIB"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:background="@drawable/prijava_background_shadow"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="  Unesite svoj OIB"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/arimo_italic"
+
+                    />
+
+                <EditText
+                    android:id="@+id/unesiOSOBNU"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/prijava_background_shadow"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="  Unesite broj osobne iskaznice"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/arimo_italic"/>
+
+                <Button
+                    android:id="@+id/prijava"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_prijava_background_shadow"
+                    android:fadingEdge="vertical"
+                    android:text="Prijava"
+                    android:textSize="30dp"
+                    android:fontFamily="@font/arimo_italic"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
+
+

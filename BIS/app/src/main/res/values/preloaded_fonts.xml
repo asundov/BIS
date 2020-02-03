@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/abhaya_libre_bold</item>
+        <item>@font/arimo_italic</item>
+        <item>@font/caudex_italic</item>
+        <item>@font/corben</item>
+        <item>@font/dancing_script_bold</item>
+        <item>@font/krona_one</item>
+    </array>
+</resources>

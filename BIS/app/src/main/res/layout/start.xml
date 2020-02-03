@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#0c3953">
+        <Button
+            android:id="@+id/povratak"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/buttons"
+            android:text="Odjava"
+            android:fontFamily="@font/arimo_italic"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:shadowColor="#113f67"
+            android:shadowDx="10"
+            android:shadowDy="10"
+            android:shadowRadius="10"
+            android:text="BIS"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#CCEDD2"
+            android:textSize="30dp"
+            android:layout_centerVertical="true"
+            android:fontFamily="@font/dancing_script_bold" />
+
+        <Button
+            android:id="@+id/glupibotunzapunjenje"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttons"
+            android:text="Punjenje"
+            android:fontFamily="@font/arimo_italic"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/starter"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            android:background="@drawable/amo"
+            android:src="@drawable/starter" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginTop="220dp"
+            android:orientation="horizontal">
+
+
+
+            //          11111111111111111
+
+
+
+
+
+            <RelativeLayout
+                android:layout_width="165dp"
+                android:layout_height="wrap_content"
+
+
+                >
+                <Button
+                    android:id="@+id/mojiNalazi"
+                    android:layout_width="145dp"
+                    android:layout_height="140dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/buttons"
+                    android:gravity="bottom|center"
+                    android:padding="20dp"
+                    android:text="Moji nalazi"
+                    android:fontFamily="@font/arimo_italic"
+                    />
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="32.5dp"
+                    android:layout_marginTop="10dp"
+                    android:elevation="3dp"
+                    android:src="@drawable/nalazi" />
+            </RelativeLayout>
+
+
+
+
+
+            //                                          222222222222
+
+
+
+
+            <RelativeLayout
+                android:layout_width="165dp"
+                android:layout_height="wrap_content"
+                              >
+                <Button
+                    android:id="@+id/narucivanjePacijenata"
+                    android:layout_width="145dp"
+                    android:layout_height="140dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/buttons"
+                    android:gravity="bottom|center"
+                    android:padding="20dp"
+                    android:text="Naručivanje"
+                    android:fontFamily="@font/arimo_italic"
+                    />
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="32.5dp"
+                    android:layout_marginTop="10dp"
+                    android:elevation="3dp"
+                    android:src="@drawable/narucivanje" />
+            </RelativeLayout>
+        </LinearLayout>
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginTop="395dp"
+            android:orientation="horizontal">
+
+
+
+
+            //                                              33333333333333
+
+
+            <RelativeLayout
+                android:layout_width="165dp"
+                android:layout_height="wrap_content"
+
+
+                >
+                <Button
+                    android:id="@+id/Opcenito"
+                    android:layout_width="145dp"
+                    android:layout_height="140dp"
+                    android:background="@drawable/buttons"
+                    android:gravity="bottom|center"
+                    android:text="Mikrobiologija"
+                    android:fontFamily="@font/arimo_italic"
+                    android:paddingBottom="10dp"
+                    />
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="32.5dp"
+                    android:layout_marginTop="10dp"
+                    android:elevation="3dp"
+                    android:src="@drawable/mikrobiologija" />
+            </RelativeLayout>
+
+
+
+
+
+
+            //                      444444444
+
+
+
+
+            <RelativeLayout
+                android:layout_width="165dp"
+                android:layout_height="wrap_content"
+                >
+                <Button
+                    android:id="@+id/Kontakt"
+                    android:layout_width="145dp"
+                    android:layout_height="140dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/buttons"
+                    android:gravity="bottom|center"
+                    android:text="Kontakt"
+                    android:fontFamily="@font/arimo_italic"
+                    android:paddingBottom="10dp"
+                    />
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="32.5dp"
+                    android:layout_marginTop="10dp"
+                    android:elevation="3dp"
+                    android:src="@drawable/kontakt" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
+

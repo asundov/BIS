@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pacijent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/starter" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+
+
+
+        <ImageView
+
+            android:layout_marginTop="300dp"
+            android:layout_width="800dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:background="@drawable/logo2"
+            android:shadowColor="#113f67"
+            android:shadowDx="20"
+            android:shadowDy="20"
+            android:shadowRadius="2"/>
+
+
+
+        <TextView
+            android:layout_marginTop="420dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:shadowColor="#113f67"
+            android:shadowDx="10"
+            android:shadowDy="10"
+            android:shadowRadius="10"
+            android:text="BIS"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#CCEDD2"
+            android:textSize="110dp"
+            app:fontFamily="@font/dancing_script_bold" />
+
+
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

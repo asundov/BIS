@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">BIS</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="opcenito">\n<b>Mikrobiologija</b> (grč. mikrós - malen, sitan; biós - život; lógos - riječ, govor, u prenesenom značenju znanost) je primijenjena znanost koja proučava mikroorganizme ili mikrobe, koji su premali da bi se uočili ljudskim okom. Služi se dostignućima i metodama drugih znanosti, od kojih su najznačajnije kemija, fizika i ekologija. Bliska znanost je imunologija.\n\n
+
+       Prema skupinama mikroorganizama koje proučava, mikrobiologija se dijeli na:\n\n
+
+          <i>Bakteriologiju</i> (grč. bakterion - štapić, palica; lógos - znanost) - proučava morfološka i uzgojna svojstva bakterija, njihov rast, metabolizam (mijenu tvari) i genetiku.\n\n
+          <i>Mikologiju</i> (grč. mýkes - gljiva; lógos - znanost)- proučava gljive, jednostanične i višestanične, heterotrofne i aklorotrofne organizme. Proučavaju se njihova morfološka i uzgojna svojstva te rast, metabolizam i genetika.\n\n
+          <i>Virologiju</i> (virusologiju) (lat. virus - otrov, sluz;grč. lógos - znanost) - proučava viruse te viroide i prione, infektivne čestice manje od virusa, koji su uzročnici bolesti biljaka, životinja i ljudi.\n\n
+          <i>Protistologiju</i> (grč. prótistos - prvi, najraniji; lógos  znanost) - proučava protiste.\n\n
+          <i>Parazitologiju</i> - proučava obilježja plosnatih i valjkastih čovjekovih nametnika i člankonožaca.\n</string>
+
+
+    <string name="kontakt"><b>Lokacija:</b>
+Firule, prizemlje i prvi kat zgrade laboratorijsko-dijagnostičkih djelatnosti KBC-a Split.
+\n
+Izvanbolnički pacijenti mogu doći do Kliničkog zavoda za mikrobiologiju i parazitologiju koristeći glavni ulaz u KBC Split (na prvom katu hodnikom lijevo do kraja) ili ulaz u Ljekarnu KBC-a (preko puta glavnog ulaza u KBC Split, a zatim stepenicama na prvi kat). Prijemni šalter nalazi se u hodniku ispred laboratorija.
+\n
+\n<i>Radno vrijeme:</i> \n(ponedjeljak-petak) od 8.00 - 21.00h, subotom od 7.30 - 13.30h.
+\n
+\n<i>Pripravnost liječnika:</i> \n državni praznik, subota, nedjelja (po potrebi, tijekom tjedna, izvan radnog vremena - dolazak na poziv).
+\n
+\n<i>Izdavanje nalaza:</i> \nradnim danom od 12.00 - 14.00h.
+\n
+        \n<b>Kontakti:</b>
+\n
+\nizv. prof. Marija Tonkić, dr. med., \n\t\tpredstojnica Zavoda
+\ne-mail: mtonkic@kbsplit.hr
+\n
+\nmed. lab. ing. Kristina Bilonić, \n\t\tglavna inženjerka Zavoda
+\ne-mail: kbilon@kbsplit.hr
+\n
+\nUred, izdavanje nalaza, informacije
+\nTel.: 021 556-201
+\n
+\nLaboratorij za hemokulture
+\nTel.: 021 556-283
+\n
+\nLaboratorij za serologiju
+\nTel.: 021 556-039
+\n
+\nLaboratorij za tbc
+\nTel.: 021 556-430
+\n
+\nBlagovaonica
+\nTel.: 021 556-197
+\n
+\nLiječnička soba
+\nTel.: 021 556-196
+\n
+\nLiječnička soba
+\nTel.: 021 556-196
+    \n</string>
+
+</resources>
